@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  float: left;
+  width: 10%;
+  background: lightcoral;
+  margin-left: 1.5%;
+  text-align: center;
+}
+
+img {
+  margin: 0;
+  width: 25%;
+  
+}
+
+div{
+  display: block;
+}
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  clear: both;
+  display: table;
